@@ -51,7 +51,7 @@
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit-half;
+    right: 15px;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -114,7 +114,7 @@
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit-half;
+  margin-bottom: 15px;
 }
 
 .contact-list,
@@ -126,14 +126,14 @@
 .footer-col-wrapper {
   // color: $grey-color;
   color: darken($text-color, 10%);
-  margin-left: -1 * $spacing-unit-half;
+  margin-left: -1 * 15px;
   @extend %clearfix;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit-half;
-  padding-left: $spacing-unit-half;
+  margin-bottom: 15px;
+  padding-left: 15px;
 }
 
 .footer-col-1 {

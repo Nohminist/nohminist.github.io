@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit-half;
+  margin-bottom: 15px;
 }
 
 
@@ -133,7 +133,7 @@ a {
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit-half;
+  padding-left: 15px;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -188,8 +188,8 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit-half;
-    padding-left: $spacing-unit-half;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -243,7 +243,7 @@ table {
     }
   }
   th, td {
-    padding: $spacing-unit-half $spacing-unit-half;
+    padding: 15px 15px;
   }
   th {
     background-color: lighten($grey-color-light, 3%);
