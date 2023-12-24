@@ -243,7 +243,7 @@ table {
     }
   }
   th, td {
-    padding: math.div($spacing-unit, 3) $spacing-unit-half;
+    padding: $spacing-unit-half $spacing-unit-half;
   }
   th {
     background-color: lighten($grey-color-light, 3%);
