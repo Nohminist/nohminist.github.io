@@ -54,8 +54,6 @@ nav ul li a {
 
 body {
   overflow-y: scroll; /* 常に縦スクロールバーを表示する */
-  background-color: dimgray,
-  
-
+  background-color: dimgray; /* ここを修正 */
 }
 
