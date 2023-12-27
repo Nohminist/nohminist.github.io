@@ -9,7 +9,25 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // padding-right: 10px; // ヘッダー全体の右側に余白を設定
+
+  .site-header {
+    position: relative;
+    // 既存のスタイルをそのまま保持
+  }
+
+  #search-input {
+    position: absolute;
+    right: 10px; // 右端から10pxの位置
+    top: 100%;
+    transform: translateY(-50%); // 垂直方向中央に配置
+  }
 }
+
 
 .site-title {
   @include relative-font-size(1.625);
@@ -17,6 +35,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-right: 20px; // タイトルとメニューの間に20pxの余白
   float: left;
 
   &,
@@ -255,3 +274,5 @@
     }
   }
 }
+
+

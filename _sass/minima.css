@@ -218,6 +218,15 @@ table td {
   min-height: 55.95px;
   position: relative;
 }
+.site-header .site-header {
+  position: relative;
+}
+.site-header #search-input {
+  position: absolute;
+  right: 10px;
+  top: 100%;
+  transform: translateY(-50%);
+}
 
 .site-title {
   font-size: 26px;
@@ -225,6 +234,7 @@ table td {
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-right: 20px;
   float: left;
 }
 .site-title, .site-title:visited {
