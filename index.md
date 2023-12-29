@@ -15,10 +15,10 @@ layout: home
 ## プロジェクト
 
 - [レスレリ便利ツール](/resleri/)
-![レスレリ便利ツール](/assets/images/resleri.png)
+[![レスレリ便利ツール](/assets/images/resleri.png)](/resleri/)
 
 - [スイメド便利ツール](/sweethomemaid/)
-![スイメド便利ツール](/assets/images/sweethomemaid.png)
+[![スイメド便利ツール](/assets/images/sweethomemaid.png)](/sweethomemaid/)
 
 
 
