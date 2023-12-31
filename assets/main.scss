@@ -1,7 +1,132 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+ # Only the main Sass file needs front matter (the dashes are enough) 
 ---
 
 @import "minima";
 
 
+.wrapper {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  /* お好みで調整可能 */
+  padding-left: 20px;
+  /* お好みで調整可能 */
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-right: 10px;
+    /* より小さいデバイス用に調整 */
+    padding-left: 10px;
+    /* より小さいデバイス用に調整 */
+  }
+}
+
+
+.post-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* h2タグのカスタマイズ */
+h2 {
+  background-color: #444; // 見出しの背景色
+  font-weight: bold;
+  padding: 10px 15px; // パディングを追加
+  margin-top: 2em;
+  border-bottom: 4px solid #ddd; // 下線を強調
+}
+
+/* h3タグのカスタマイズ */
+h3 {
+  background-color: #555;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-top: 2em;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+
+}
+
+/* h4タグのカスタマイズ */
+h4 {
+  background-color: #6A6A6A;
+  color: #B0B0B0;
+  font-size: 20px;
+  padding: 6px 15px;
+  margin-bottom: 0.75em;
+}
+
+/* h5タグのカスタマイズ */
+h5 {
+  background-color: #7A7A7A;
+  color: #999999;
+  font-size: 18px;
+  padding: 4px 15px;
+  margin-bottom: 0.75em;
+}
+
+/* h6タグのカスタマイズ */
+h6 {
+  background-color: #8A8A8A;
+  color: #808080;
+  font-size: 16px;
+  padding: 2px 15px;
+  margin-bottom: 0.75em;
+}
+
+/* home.htmlから */
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-list li {
+  flex: 0 0 calc(50% - 10px);
+  /* 各アイテムを50%の幅で表示 */
+  margin: 5px;
+}
+
+/* モバイルデバイス用のスタイル */
+@media (max-width: 768px) {
+  .post-list li {
+    flex: 0 0 calc(100% - 10px);
+    /* モバイルでは各アイテムを100%の幅で表示 */
+  }
+}
+
+
+
+.post-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.post-title {
+  position: absolute;
+  bottom: 10px;
+  /* 画像の下部に配置 */
+  left: 10px;
+  /* 画像の左から10pxの位置 */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* 背景色を半透明の黒 */
+  padding: 5px;
+  /* タイトル周りの余白 */
+  font-size: 20px;
+  width: calc(100% - 30px);
+  /* 左右のpaddingとleftを考慮した幅 */
+  color: white;
+  /* 文字色 */
+}
+
+.post-meta {
+  font-size: 16px;
+  /* メタ情報のフォントサイズ */
+  margin-top: 5px;
+  /* タイトルとの間隔 */
+}

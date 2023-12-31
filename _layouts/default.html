@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "ja" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'ja' }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+  <div class="page-content">
+    <main class="main-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
+  </div>
 
-    {%- include footer.html -%}
 
-    <!-- Simple Jekyll Search の初期化 -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
+
+  {%- include footer.html -%}
+
+  <!-- Simple Jekyll Search の初期化 -->
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
       SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ "/search.json" | relative_url }}'
       })
     });
-  </script>
+  </script> -->
 
-  </body>
+
+</body>
 
 </html>

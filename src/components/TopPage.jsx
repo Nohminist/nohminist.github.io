@@ -115,7 +115,7 @@ const TopPage = () => {
               のうみん(Nohmin)
               <IconButton
                 component="a"
-                href="https://twitter.com/nohmin2"
+                href="https://twitter.com/nohminism"
                 target="_blank"
                 rel="noopener noreferrer"
                 sx={{ ml: 1, verticalAlign: 'middle', color: '#1DA1F2' }}

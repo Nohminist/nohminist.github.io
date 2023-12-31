@@ -4,8 +4,9 @@ email: nohminism@gmail.com
 description: "Reactを勉強しながら役立つものを作るのが目標です。ゲーム攻略の効率化のために作っていますが、ゲームするよりツール作るほうが楽しかったり。"
 baseurl: ""
 url: "https://nohminist.github.io"
-twitter_username: nohmin2
+twitter_username: nohminism
 github_username:  Nohminist
+date_format: "%Y/%m/%d"
 
 # Build settings
 theme: minima
@@ -42,4 +43,6 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - README.md
+
+
 
