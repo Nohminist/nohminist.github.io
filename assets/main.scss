@@ -5,6 +5,7 @@
 @import "minima";
 
 
+
 .wrapper {
   max-width: 100%;
   margin-right: auto;
@@ -91,12 +92,29 @@ h6 {
   margin: 5px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 0 0 calc(50% - 10px);
+  padding: 5px; /* 必要に応じて */
+}
+
 /* モバイルデバイス用のスタイル */
 @media (max-width: 768px) {
   .post-list li {
     flex: 0 0 calc(100% - 10px);
     /* モバイルでは各アイテムを100%の幅で表示 */
   }
+
+  .column {
+    flex: 0 0 calc(100% - 10px);
+    /* モバイルでは各アイテムを100%の幅で表示 */
+  }
+
+
 }
 
 

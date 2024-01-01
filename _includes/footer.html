@@ -3,11 +3,14 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h1 class="footer-heading">{{ site.title | escape }}</h1>
+
+    <div>ツールに関するご意見や提案がありましたら、以下連絡先までご連絡ください。ユーザーの皆様からのフィードバックをもとに、ツールの改善を進めてまいります。</div>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
+
           <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
@@ -28,6 +31,8 @@
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
         <a href="/privacy-policy/">プライバシーポリシー</a>
+      </div>
+
       </div>
     </div>
 
