@@ -26,11 +26,6 @@
 }
 
 
-.post-image {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
 
 /* h2タグのカスタマイズ */
 h2 {
@@ -117,12 +112,22 @@ h6 {
 
 }
 
-
+.post-image-container {
+  width: 100%; /* コンテナの幅を100%に設定 */
+  max-width: 1280px; /* 最大幅を設定 */
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .post-image {
   position: relative;
   width: 100%;
+  max-width: 1280px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
 }
 
 .post-title {
