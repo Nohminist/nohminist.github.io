@@ -2,6 +2,7 @@
 layout: post
 title:  "スイメド便利ツールでできること"
 date:   2023-12-30 00:00:00 +0900
+categories: [category-sweethomemaid]
 image: /assets/images/sweethomemaid.png
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "レスレリ便利ツールでできること"
 date:   2023-12-23 22:10:05 +0900
+categories: [category-resleri]
 image: /assets/images/resleri.png
 ---
 

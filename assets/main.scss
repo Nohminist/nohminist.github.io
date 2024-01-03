@@ -6,6 +6,8 @@
 
 
 
+
+
 .wrapper {
   max-width: 100%;
   margin-right: auto;
@@ -152,4 +154,63 @@ h6 {
   /* メタ情報のフォントサイズ */
   margin-top: 5px;
   /* タイトルとの間隔 */
+}
+
+
+
+
+
+
+
+.layout {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+}
+
+
+/* 一般的なデバイスでのスタイル */
+.sidebar {
+  width: 400px; /* または適切な幅に調整 */
+}
+
+.sidebar-toggle {
+  display: none; /* ボタンを非表示にする */
+}
+
+/* 狭い画面でのスタイル */
+@media (max-width: 1280px) {
+  .sidebar {
+    position: fixed; /* サイドバーを固定位置に */
+    left: -400px; /* サイドバーを画面外に */
+    transition: left 0.1s;
+    width: 400px;
+    background-color: #222;
+    height: 100vh;
+  }
+
+  .sidebar.active {
+    left: 0; /* アクティブ時にサイドバーを表示 */
+  }
+
+  .sidebar-toggle {
+    position: fixed;
+    left: 10px;
+    bottom: 10px; /* ボタンを画面の下部に配置 */
+    z-index: 1000; /* 他の要素の上に表示 */
+    background-color: #ddd; /* ボタンの背景色 */
+    color: #444; /* テキストの色 */
+    border: none; /* 枠線を削除 */
+    border-radius: 50%; /* ボタンを円形に */
+    width: 50px; /* 幅 */
+    height: 50px; /* 高さ */
+    display: flex; /* Flexboxを使用 */
+    justify-content: center; /* 中央揃え */
+    align-items: center; /* 中央揃え */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* 影を追加 */
+    cursor: pointer; /* カーソルをポインタに */
+    font-size: 20px; /* フォントサイズ */
+  }
 }

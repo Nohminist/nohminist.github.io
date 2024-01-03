@@ -2,6 +2,7 @@
 layout: post
 title:  "レスレリ｜おすすめ装備アイテム特性と調合組合せ"
 date:   2024-1-2 00:00:00 +0900
+categories: [category-resleri]
 image: /assets/images/alchemy.png
 ---
 

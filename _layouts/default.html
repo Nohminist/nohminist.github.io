@@ -7,17 +7,49 @@
 
   {%- include header.html -%}
 
+  <!-- サイドバー切り替えアイコン -->
+  <button class="sidebar-toggle">☰</button>
+
+
   <div class="page-content">
-    <main class="main-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    <div class="layout">
+      <main class="main-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+
+      <aside class="sidebar">
+        <h2>プロジェクト</h2>
+        <ul>
+          <li><a href="/resleri/">レスレリ便利ツール</a></li>
+          <li><a href="/sweethomemaid/">スイメド便利ツール</a></li>
+        </ul>
+
+        <h2>投稿｜カテゴリー</h2>
+        <ul>
+          {%- for category in site.category_names -%}
+            {%- assign category_slug = category[0] -%}
+            {%- assign category_name = category[1] -%}
+            <li><a href="/{{ category_slug | slugify }}/">{{ category_name }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </aside>
+
+
+    </div>
   </div>
 
 
 
   {%- include footer.html -%}
+
+  <!-- JavaScript for sidebar toggle -->
+  <script>
+    document.querySelector('.sidebar-toggle').addEventListener('click', function () {
+      document.querySelector('.sidebar').classList.toggle('active');
+    });
+  </script>
 
   <!-- Simple Jekyll Search の初期化 -->
   <!-- <script>

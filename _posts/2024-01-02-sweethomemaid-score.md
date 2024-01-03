@@ -2,6 +2,7 @@
 layout: post
 title:  "スイメド｜スコア計算式"
 date:   2024-01-02 00:00:00 +0900
+categories: [category-sweethomemaid]
 image: /assets/images/deckScore.png
 ---
 
