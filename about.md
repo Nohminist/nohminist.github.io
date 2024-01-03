@@ -21,7 +21,7 @@ permalink: /about/
 
 ## お問い合わせ
 
-当サイトの提供する情報やツールに関するご質問やご意見がありましたら、お気軽に[nohminism@gmail.com](mailto:nohminism@gmail.com)までご連絡ください。また、サイトの改善に関するご提案も大歓迎です。
+当サイトの提供する情報やツールに関するご質問やご意見がありましたら、<a href="https://forms.gle/h42yDsLfwo3YN1Zu6" target="_blank">こちら</a>までご連絡ください。また、サイトの改善に関するご提案も大歓迎です。
 
 皆様からのご意見をお待ちしております。
 
