@@ -51,7 +51,7 @@ image: /assets/images/resleri.png
   - 実ウェイト表示に切り替えることができます
     - メモリアや相違アイテム、研究効果を設定できます
     - 素早さバフは設定できません
-    - 実ウェイト計算式は[こちら](https://atelier.xxsakixx.com/resleri/wait.html)を参考にさせていただきました
+    - 実ウェイト計算式は<a href="https://atelier.xxsakixx.com/resleri/wait.html" target="_blank">こちら</a>を参考にさせていただきました
 
 <div class="row">
   <div class="column">
